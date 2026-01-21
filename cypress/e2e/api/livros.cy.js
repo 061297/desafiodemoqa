@@ -1,8 +1,8 @@
 import { faker } from "@faker-js/faker";
 
 describe('template spec', () => {
-    const password = "Teste@123";
-    const username = faker.internet.username();
+const password = "Teste@123";
+const username = faker.internet.username();
     it('passes', () => {
         let userId, token, isbn1, isbn2;
 

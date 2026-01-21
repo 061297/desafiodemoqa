@@ -1,9 +1,9 @@
 import { buildStudent } from '../../support/studentFactory';
 
-const s = buildStudent();
-
 describe('template spec', () => {
   it('passes', () => {
+    const s = buildStudent();
+    
     cy.iniciar();
     cy.get('.menu-list').contains('Practice Form').click();
     cy.get('#firstName').type(s.firstName);
