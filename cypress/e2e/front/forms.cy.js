@@ -1,4 +1,4 @@
-import { buildStudent } from '../support/studentFactory';
+import { buildStudent } from '../../support/studentFactory';
 
 const s = buildStudent();
 
